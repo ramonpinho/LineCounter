@@ -18,4 +18,4 @@ Contribution:
     I'm still unsure about the future of this code.
 
 License:
-    I haven't decided about the code license.
+    MIT License
