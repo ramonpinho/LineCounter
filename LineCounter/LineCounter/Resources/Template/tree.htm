@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="UTF-8" />
+    <title>[[TITLE]]</title>
+    <meta name="description" content="[[TITLE]]" />
+    <meta name="keywords" content="Ramon Duarte Pinho; Software Architect; Web development; Html; javascript; Dot Net; samples of software; piece of code; tree view; line counter" />
+    <meta name="author" content="Ramon Pinho" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Default-Style" content="agreen">
+
+    <link href="css/site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/agreen/site-theme.css" title="agreen">
+    <link rel="alternate stylesheet" type="text/css" href="css/ablue/site-theme.css" title="ablue">
+    <link rel="alternat stylesheet" type="text/css" href="css/dark/site-theme.css" title="dark" />
+    <link rel="alternate stylesheet" type="text/css" href="css/bright/site-theme.css" title="bright">
+
+    <link rel="stylesheet" type="text/css" href="css/agreen/site-ext.css" title="agreen">
+    <link rel="alternate stylesheet" type="text/css" href="css/ablue/site-ext.css" title="ablue">
+    <link rel="alternate stylesheet" type="text/css" href="css/dark/site-ext.css" title="dark" />
+    <link rel="alternate stylesheet" type="text/css" href="css/bright/site-ext.css" title="bright">
+
+    <link href="css/tree.css" rel="stylesheet" type="text/css" />
+    <link rel="alternate stylesheet" type="text/css" href="css/agreen/tree.css" title="agreen">
+    <link rel="alternate stylesheet" type="text/css" href="css/ablue/tree.css" title="ablue">
+    <link rel="alternate stylesheet" type="text/css" href="css/dark/tree.css" title="dark">
+    <link rel="alternate stylesheet" type="text/css" href="css/bright/tree.css" title="bright">
+
+    <!--<link rel="icon" href="./images/tree-1-32x32.ico" type="image/x-icon" />-->
+    <script type="text/javascript" src="scripts/stylemanager.js"></script>
+
+    <script type="text/javascript" src="scripts/component/treeView.js"></script>
+    <script type="text/javascript" src="scripts/component/constants.js"></script>
+    <script type="text/javascript" src="scripts/tree.js"></script>
+
+</head>
+
+    <body onload="styleManager.initialize(); site.initialize();">
+
+        <div id="mainContainer" class="columnContainer">
+            <header>
+                <div class="headerStyle">                    
+                    <div title="Generated on">[[DATE_TIME]]</div>
+                    <div class="rowItem1 centerText"><h1>[[TITLE]]</h1></div>                
+                </div>            
+                <div class="headerStyle">                
+                    <div class="rowItem1">
+                        &nbsp;
+                    </div>
+                    <div class="flagsDiv">
+                        <span>Theme:</span>
+                        <form>
+                            <select id="styleList" onchange="styleManager.change_style()">
+                                <option value="dark">Dark</option>
+                                <option value="bright">Bright</option>
+                                <option value="agreen">A green</option>
+                                <option value="ablue">A blue</option>
+                            </select>
+                        </form>
+                        <!-- <span>Select:</span>
+                        <img src="images/flag_usa_32x32.png" alt="Current selected language" title="Current selected language" />
+                        <a href="tree-br.html">
+                            <img src="images/flag_brazil.png" alt="Change to Portuguese" title="Change to Portuguese" />
+                        </a> -->
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="main">
+
+            <section>
+                <h2>[[FOLDER]] Results</h2>
+                <div>Exceptions: [[EXCEPTIONS]]</div>
+                <div id="treeView"></div>
+            </section>
+            
+        </div>        
+
+    </body>
+</html>

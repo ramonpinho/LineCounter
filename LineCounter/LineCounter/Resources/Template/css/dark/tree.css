@@ -1,0 +1,25 @@
+
+.treeView {
+    border: solid 1px #7cd3d3;
+}
+
+.treeView-nodeOdd {
+    background-color: #014901;
+}
+
+.treeView-nodeEven {
+    background-color: #075c07;    
+}
+
+.treeView-withChild:hover{
+    background-color: #4f4f4f;    
+}
+
+.treeView-withChild span {    
+    background-color: #0f0f0f;    
+}
+
+.treeView-withChild span:hover {
+    background-color: #3f3f3f;
+}
+

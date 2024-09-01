@@ -1,0 +1,76 @@
+{
+    "Language": "pt-br",
+    "LanguageName": "Português",
+
+    "Form1": {
+        "Title": "Contador de Linhas",
+        "LblInfoProgram": "O programa que conta o número de linhas nos códigos do projeto.",
+        "LblTitle": "&Título",
+        "TxtTitle_tooltip": "O título que será usado na página de resultados.",
+        "LblFolder": "&Selecione a pasta de origem",
+
+        "TxtFolder_tooltip": "A pasta raiz onde os arquivos serão contados.",
+        "BtnSelectFolder_tooltip": "Clique aqui para selecionar uma pasta de origem.",
+        "BtnAddToList": "&Incluir",
+        "BtnAddToList_tooltip": "Adicione a fonte à lista abaixo",
+        "LblFilesExtensions": "&Filtrar por extensões de arquivos",
+
+        "LblExceptions": "&Exceções",
+        "LblRepositories": "Repositórios",
+        "LblOutput": "Saí&da",
+        "BtnSelectOutput_tooltip": "Clique aqui para selecionar a pasta de saída.",
+        "BtnAbout": "&Sobre",
+
+        "BtnProcess": "&Processo",
+        "LblResults": "Resultados",
+        "BtnClear": "Limpa&r",
+        "BtnClear_tooltip": "Limpar a lista de repositórios",
+        "BtnExit": "&Sair",
+
+        "File": "&Arquivo",
+        "Help": "A&juda",
+        "Language": "&Língua",
+        "Value": "Value",
+        "LstFilesExtensions_tooltip": "Extensões de arquivo que serão usadas para contar linhas. Separe-os por vírgulas ou ponto e vírgula.",
+
+        "LstExceptions_tooltip": "A lista de exceções separada por vírgulas e ponto e vírgula. Qualquer nome de arquivo ou caminho que contenha uma palavra aqui será ignorado.",
+        "TxtOutput_tooltip": "O caminho onde os arquivos de relatório serão salvos.",
+        "Grid_tooltip": "Selecione uma linha e pressione delete para remover uma pasta da lista."
+    },
+
+    "Dialogs": {
+        "FolderBrowserDialog1": "Selecione a pasta para os arquivos de saída.",
+        "FolderBrowserDialog2": "Selecione a pasta de origem."
+    },
+
+    "ControlsMessage": {
+        "MSG_FOLDER_EMPTY": "Uma pasta válida deve ser escolhida!",
+        "MSG_FOLDER_NOT_EXIST": "A pasta não existe!",
+        "MSG_SETTINGS_NOT_DEFINED": "As configurações não estão definidas!",
+        "OVERALL": "Geral",
+        "TOTAL_FILES": "Total de arquivos",
+
+        "TOTAL_LINES": "Total de linhas",
+        "TOTAL_SIZE": "Tamanho total",
+        "TXT_REPOSITORIES": "Repositórios",
+        "TXT_TOTAL_BY_FOLDERS": "Total by folders",
+        "TXT_TOTAL_BY_EXT": "Total by extension",
+
+        "OF_TOTAL": "Of total",
+        "REPOSITORIES": "repositórios",
+        "Processing": "Processando",
+        "GenerateJsonResult01": "Gerando JSON para os resultados.",
+        "GenerateJsonResult02": "Começando a salvar a saída final.",
+        "GenerateJsonResult03": "Processamento concluído.",
+
+        "Lines": "linhas",
+        "Files": "arquivos",
+        "Validating": "Validando"
+    },
+
+    "AboutBox1": {
+        "Title": "Sobre",
+        "Version": "Versão",
+        "Description": "Um programa de contador de linha de arquivo que gera um relatório HTML."
+    }
+}

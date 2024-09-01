@@ -1,0 +1,147 @@
+/*
+ * a green - site-theme.css
+ * Styles for GREEN theme.
+**/
+
+html, body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    color: rgb(6,46,9);
+    background-color: white;   
+}
+
+footer {    
+    background-color:rgb(6,46,9);
+    border-top: 1px solid rgb(2, 32, 5);
+    color: white;
+}
+
+header {        
+    background-color:rgb(6,46,9);
+    border-bottom: 1px solid rgb(2,32,5);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+a{
+    color:rgb(221, 250, 0);
+}
+
+a:visited {
+    color:rgb(0, 250, 229);
+}
+
+a:hover{
+    font-weight: bolder;
+    /* font-size: larger;      */
+}
+
+.columnContainer section {
+    background-color: #f0f0ff;
+}
+
+h2, input[type="button"] {
+    color:white;
+    background-color: rgb(6,46,9);
+}
+
+.formTitle {
+    background-color: #dff5cd;
+    border: 1px solid rgb(6, 46, 9);
+}
+
+.collapsable:hover, input[type="button"]:hover {
+    color:rgb(194, 230, 197);
+    background-color: rgb(14, 70, 19);
+}
+
+input[type="button"]:disabled {
+    color:#f0f0f0;
+    background-color: rgb(167, 167, 167);   
+}
+
+/* .footerNote {
+    color: #e4e4ff;
+} */
+
+.bordered {
+    border: 1px solid rgb(6,46,9);
+}
+
+/* .checkbox, */
+input[type="button"] {
+    border: 1px solid rgb(6,46,9);
+}
+
+/* .specialField {
+    color: rgb(10, 88, 16);
+} */
+
+.bordered div {
+    padding-left: 5px;
+}
+
+.sectionBorder {
+    margin-top: 10px;
+    border: 1px solid rgb(6,46,9);;
+}
+
+.highlightSection {
+    background-color:#dff5cd;
+}
+
+.sampletSection {
+    background-color:#f3d6ee;
+}
+
+.sampletSection select {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    height: 28px;
+}
+
+
+/* xcombo related styles. */
+.xcombo {    
+    background-color: #fffffF;
+    border: 0.8px solid rgb(204,204,204);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+/* #e7ffd4; */
+.xcombo div:hover {
+    background-color:  rgb(184, 184, 184);
+    cursor: pointer;    
+}
+
+.xcombo:focus, .simulatedHover {
+    background-color:rgb(160, 160, 160);
+    font-weight: bold;
+}
+
+.xcombo, .xcombo div {    
+    color: black;
+
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.xcombo div  {
+    padding: 3px 18px 3px 10px;
+}
+
+.xcomboHighlight {    
+    color:white;
+    font-weight: bold;    
+}
+
+.xcombo-linehighlight {
+    background-color:#ccf0ae;
+}
+.xcombo-linehighlight:hover {
+    font-weight: bold;
+}

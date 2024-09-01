@@ -1,0 +1,109 @@
+
+html, body {
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    color: #010101;
+    background-color: white;   
+}
+
+footer {    
+    background-color:#9c9cac;
+    border-top: 2px solid #27271c;
+}
+
+header {        
+    background-color: white;    
+    border-bottom: 2px solid rgb(191, 191, 250);   
+}
+
+h1 {
+    color: rgb(154, 154, 223);
+}
+
+a{
+    color:#c5c576;
+}
+
+a:visited {
+    color:#79cccc;
+}
+
+a:hover{
+    font-weight: bolder;
+    font-size: larger;     
+}
+
+.columnContainer section {
+    background-color: #f0f0ff;
+}
+
+/* .form {
+    border:1px solid rgb(154, 154, 223);  
+} */
+
+h2, .formTitle, input[type="button"] {
+    color:#f0f0ff;
+    background-color: rgb(154, 154, 223);
+}
+
+.collapsable:hover, input[type="button"]:hover {
+    color:#fffff0;
+    background-color: rgb(167, 167, 218);    
+}
+
+input[type="button"]:disabled {
+    color:#f0f0f0;
+    background-color: rgb(167, 167, 167);   
+}
+
+.footerNote {
+    color: #e4e4ff;
+}
+
+.bordered {
+    border: 1px solid rgb(154, 154, 223);;
+}
+
+.formTitle {    
+    background-color: rgb(154, 154, 223);
+}
+
+/* .destination {
+    background-color: #00d000 !important;
+}
+
+.current-floor {
+    background-color: #6080f0 !important;
+}
+
+.info {
+    background-color: #e4e4ff;    
+    color:#7c7cbb;
+}
+
+#canvasDiv {
+    background-color: white;
+}
+
+.floor {
+    background-color: #d0d0d0;    
+    color: #000000;    
+}
+
+.floor:hover{
+    background-color: #909090;    
+    border: 1px solid #ff0000;
+} */
+
+/* .checkbox, */
+input[type="button"] {
+    border: 1px solid #7c7cbb;
+}
+
+.ulCheckList li::before {
+    color: green;
+}
+
+.specialField {
+    color: #00b000;
+}

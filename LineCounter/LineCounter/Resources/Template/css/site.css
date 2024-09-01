@@ -1,0 +1,244 @@
+/* My site CSS 
+   By Ramon Pinho
+   Style 1: Dark with high color contrast.   
+   Oct 2021
+*/
+
+html, body {    
+    padding: 0px;
+    border: 0px;
+    margin:0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;	
+    justify-content: center;
+    height: 10vh;    
+}
+
+h1 {
+    margin: 0px;
+    font-weight: bolder;    
+}
+
+h2 {
+    margin: 0px;
+    font-weight: bold;    
+}
+
+.columnContainer
+{
+    display:flex;			
+    flex-direction: column;
+}
+
+.headerStyle {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* align-content: stretch;    */
+    align-items: center;
+    flex-wrap: wrap;
+    height: 5vh;         
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+/* .rowContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;        
+} */
+
+.centerText {
+    text-align: center;
+}
+
+.rowItem1 {
+    flex-grow:1;
+}
+
+/* .rowItem2 {
+    flex-grow:2;
+}
+
+.rowItem4 {
+    flex-grow:4;
+}
+
+.rowItem8 {
+    flex-grow:8;
+} */
+
+.main {    
+    overflow: auto;
+    /* height: 75vh;
+    max-height: 75vh; */
+}
+
+/* .form {
+    padding:0px;    
+}
+
+.form > div span {    
+    display: inline-block;
+} */
+
+.collapsable {
+    cursor: pointer;
+}
+
+/* .collapsable:hover {} */
+
+/* .floor {
+    margin-right: 10px;
+}
+
+.checkbox {
+    display: inline-block;
+    padding-right: 4px;    
+} */
+
+@media only screen and (max-width: 700px) {
+    .main {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    h1 {
+        font-size: large;
+    }
+    
+    h2, .formTitle {
+        font-size: large;
+    }
+
+    footer {
+        font-size: x-small;
+    }
+
+    /* input[type="button"] {
+        height: 4vh;
+    }
+
+    .form {        
+        line-height: 4vh;                
+    }
+
+    .form > div {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-right: 3vw;
+        padding-left: 3vw;
+        width: 80vw;
+    }
+    
+    .form div span {
+        width: 50vw;        
+    }
+    
+    .form input[type="number"] {
+        width: 10vw;
+    }
+
+    .checkbox {
+        line-height: 4vh;
+    }
+
+    .info input[type="text"] {
+        height: 4vh;
+    }
+
+    #logArea {
+        max-height: 40vh;
+    } */
+}
+
+@media only screen and (min-width: 700px) {
+    .main {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+    
+    h2, .formTitle {
+        font-size: x-large;
+    }
+
+    /* input[type="button"] {
+        height: 30px;
+    }
+
+    .form {
+        line-height: 30px;
+    }
+
+    .form > div {
+        padding: 30px;
+    }
+    
+    .form div span {
+        width: 200px;        
+    }
+    
+    .form input[type="number"] {
+        width: 50px;
+    }
+
+    .checkbox {
+        line-height: 30px;
+    }
+
+    .info input[type="text"] {
+        height: 30px;
+    }
+
+    #logArea {
+        max-height: 250px;
+    } */
+}
+
+.flagsDiv {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* align-content: stretch; */
+    flex-wrap: wrap; 
+}
+
+.flagsDiv span, .flagsDiv form, .flagsDiv a, .flagsDiv img {
+    margin-left: 1vh;
+}
+
+.bordered div {
+    padding-left: 1vw;
+}
+
+/* .info {    
+    overflow: auto;
+    padding-top: 10px;
+    padding-left: 4px;
+} */
+
+.ulCheckList {
+    list-style: none;
+  }
+  
+  .ulCheckList li::before {
+    content: "\2713";    
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.formTitle {
+    display: block;
+    padding: 2px;
+}

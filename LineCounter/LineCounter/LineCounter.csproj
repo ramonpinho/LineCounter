@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>tree-1-32x32.ico</ApplicationIcon>
+    <Version>1.0</Version>
+    <Description>A file line counter program that generates a HTML report.</Description>
+    <Authors>Ramon Pinho</Authors>
+    <Company>Ramon Pinho</Company>
+    <Copyright>Ramon Pinho © 2024</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\BaseLevelInfo.cs" />
+    <Compile Remove="Models\ExtLevel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Template\css\bright\site-ext.css" />
+    <None Remove="Resources\Template\css\bright\site-theme.css" />
+    <None Remove="Resources\Template\css\bright\tree.css" />
+    <None Remove="Resources\Template\css\ablue\site-ext.css" />
+    <None Remove="Resources\Template\css\ablue\site-theme.css" />
+    <None Remove="Resources\Template\css\ablue\tree.css" />
+    <None Remove="Resources\Template\css\dark\site-ext.css" />
+    <None Remove="Resources\Template\css\dark\site-theme.css" />
+    <None Remove="Resources\Template\css\dark\tree.css" />
+    <None Remove="Resources\Template\css\agreen\site-ext.css" />
+    <None Remove="Resources\Template\css\agreen\site-theme.css" />
+    <None Remove="Resources\Template\css\agreen\tree.css" />
+    <None Remove="Resources\Template\css\site.css" />
+    <None Remove="Resources\Template\css\tree.css" />
+    <None Remove="Resources\Template\scripts\component\constants.js" />
+    <None Remove="Resources\Template\scripts\component\treeView.js" />
+    <None Remove="Resources\Template\scripts\stylemanager.js" />
+    <None Remove="Resources\Template\scripts\tree.js" />
+    <None Remove="Resources\Template\tree-pt-br.htm" />
+    <None Remove="Resources\Template\tree.htm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tree-1-32x32.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Template\css\bright\site-ext.css" />
+    <EmbeddedResource Include="Resources\Template\css\bright\site-theme.css" />
+    <EmbeddedResource Include="Resources\Template\css\bright\tree.css" />
+    <EmbeddedResource Include="Resources\Template\css\ablue\site-ext.css" />
+    <EmbeddedResource Include="Resources\Template\css\ablue\site-theme.css" />
+    <EmbeddedResource Include="Resources\Template\css\ablue\tree.css" />
+    <EmbeddedResource Include="Resources\Template\css\dark\site-ext.css" />
+    <EmbeddedResource Include="Resources\Template\css\dark\site-theme.css" />
+    <EmbeddedResource Include="Resources\Template\css\dark\tree.css" />
+    <EmbeddedResource Include="Resources\Template\css\agreen\site-ext.css" />
+    <EmbeddedResource Include="Resources\Template\css\agreen\site-theme.css" />
+    <EmbeddedResource Include="Resources\Template\css\agreen\tree.css" />
+    <EmbeddedResource Include="Resources\Template\css\site.css" />
+    <EmbeddedResource Include="Resources\Template\css\tree.css" />
+    <EmbeddedResource Include="Resources\Template\scripts\component\constants.js" />
+    <EmbeddedResource Include="Resources\Template\scripts\component\treeView.js" />
+    <EmbeddedResource Include="Resources\Template\scripts\stylemanager.js" />
+    <EmbeddedResource Include="Resources\Template\scripts\tree.js" />
+    <EmbeddedResource Include="Resources\Template\tree-pt-br.htm" />
+    <EmbeddedResource Include="Resources\Template\tree.htm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\lang\en-us.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\lang\pt-br.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

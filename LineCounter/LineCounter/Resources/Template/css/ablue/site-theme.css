@@ -1,0 +1,146 @@
+/*
+ * A blue- site-theme.css
+ * Styles for a BLUE theme.
+**/
+
+html, body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #0D4F7C;
+    background-color: white;   
+}
+
+footer {    
+    background-color: #022F5A;
+    border-top: 1px solid #0D4F7C;
+    color: white;
+}
+
+header {        
+    background-color: #022F5A;
+    border-bottom: 1px solid #0D4F7C;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+a{
+    color:rgb(221, 250, 0);
+}
+
+a:visited {
+    color:rgb(0, 250, 229);
+}
+
+a:hover{
+    font-weight: bolder;
+    /* font-size: larger;      */
+}
+
+.columnContainer section {
+    background-color: #f0f0ff;
+}
+
+h2, .formTitle, input[type="button"] {
+    color:white;
+    background-color: #0D4F7C;
+}
+
+.formTitle {    
+    border: 1px solid #0D4F7C;
+}
+
+.collapsable:hover, input[type="button"]:hover {
+    color:#B9D6ED;
+    background-color: #022F5A;
+}
+
+input[type="button"]:disabled {
+    color:#f0f0f0;
+    background-color: rgb(167, 167, 167);   
+}
+
+/* .footerNote {
+    color: #e4e4ff;
+} */
+
+.bordered {
+    border: 1px solid #0D4F7C;
+}
+
+/* .checkbox, */
+input[type="button"] {
+    border: 1px solid #0D4F7C;
+}
+
+/* .specialField {
+    color: rgb(10, 88, 16);
+} */
+
+.bordered div {
+    padding-left: 5px;
+}
+
+.sectionBorder {
+    margin-top: 10px;
+    border: 1px solid #0D4F7C;
+}
+
+.highlightSection {
+    background-color:#dff5cd;
+}
+
+.sampletSection {
+    background-color:#f3d6ee;
+}
+
+.sampletSection select {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    height: 28px;
+}
+
+
+/* xcombo related styles. */
+.xcombo {    
+    background-color: #fffffF;
+    border: 0.8px solid rgb(204,204,204);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+/* #e7ffd4; */
+.xcombo div:hover {
+    background-color:  rgb(184, 184, 184);
+    cursor: pointer;    
+}
+
+.xcombo:focus, .simulatedHover {
+    background-color:rgb(160, 160, 160);
+    font-weight: bold;
+}
+
+.xcombo, .xcombo div {    
+    color: black;
+
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.xcombo div  {
+    padding: 3px 18px 3px 10px;
+}
+
+.xcomboHighlight {    
+    color:white;
+    font-weight: bold;    
+}
+
+.xcombo-linehighlight {
+    background-color:#ccf0ae;
+}
+.xcombo-linehighlight:hover {
+    font-weight: bold;
+}

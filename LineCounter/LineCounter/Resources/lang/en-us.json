@@ -1,0 +1,76 @@
+{
+    "Language": "en-us",
+    "LanguageName": "English",
+
+    "Form1": {
+        "Title": "Line Counter",
+        "LblInfoProgram": "The program that counts number of lines in your project codes.",
+        "LblTitle": "&Title",
+        "TxtTitle_tooltip": "The title that will be used on result page.",
+        "LblFolder": "&Select the source folder",
+
+        "TxtFolder_tooltip": "The root folder where the files will be counted.",
+        "BtnSelectFolder_tooltip": "Click here to select a source folder.",
+        "BtnAddToList": "Add",
+        "BtnAddToList_tooltip": "Add the source to the list below",
+        "LblFilesExtensions": "&Filter by files extensions",
+
+        "LblExceptions": "&Exceptions",
+        "LblRepositories": "Repositories",
+        "LblOutput": "Output",
+        "BtnSelectOutput_tooltip": "Click here to select the output folder.",
+        "BtnAbout": "&About",
+
+        "BtnProcess": "&Process",
+        "LblResults": "Results",
+        "BtnClear": "&Clear",
+        "BtnClear_tooltip": "Clear the repository list",
+        "BtnExit": "E&xit",
+
+        "File": "&File",
+        "Help": "&Help",
+        "Language": "&Language",
+        "Value": "Value",
+        "LstFilesExtensions_tooltip": "File extensions that will be taken for counting lines. Separte them by commas or semicolons.",
+
+        "LstExceptions_tooltip": "The exception list sepparated by commas and semicolons. Any file name or path containing a word here will be ignored.",
+        "TxtOutput_tooltip": "The path where report files will be saved.",
+        "Grid_tooltip": "Select a row and press delete to remove a folder from the list."
+    },
+
+    "Dialogs" : {
+        "FolderBrowserDialog1": "Select the folder for the output files.",
+        "FolderBrowserDialog2": "Select the source folder."
+    },
+
+    "ControlsMessage" : {
+        "MSG_FOLDER_EMPTY": "A valid folder must be chosen!",
+        "MSG_FOLDER_NOT_EXIST" : "Folder does not exist!",
+        "MSG_SETTINGS_NOT_DEFINED": "Settings is not defined!",
+        "OVERALL": "Overall",
+        "TOTAL_FILES": "Total files",
+
+        "TOTAL_LINES": "Total lines",
+        "TOTAL_SIZE": "Total size",
+        "TXT_REPOSITORIES": "Repositories",
+        "TXT_TOTAL_BY_FOLDERS": "Total by folders",
+        "TXT_TOTAL_BY_EXT": "Total by extension", 
+
+        "OF_TOTAL" : "Of total",
+        "REPOSITORIES": "repositories",
+        "Processing": "Processing",
+        "GenerateJsonResult01": "Generating JSON for the results.",
+        "GenerateJsonResult02": "Beggining to save the final output.",
+        "GenerateJsonResult03": "Process completed.", 
+
+        "Lines": "lines",
+        "Files": "files",
+        "Validating": "Validating"
+    },
+
+    "AboutBox1": {
+        "Title": "About",
+        "Version": "Version",
+        "Description": "A file line counter program that generates a HTML report."
+    }
+}

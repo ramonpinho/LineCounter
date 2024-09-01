@@ -1,0 +1,31 @@
+
+.treeView-noChild {
+    border: none;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 30px;    
+}
+
+.treeView-withChild {
+    border: none;
+    padding: 2px;    
+}
+
+.treeView-withChild:hover{    
+    cursor: pointer;
+}
+
+.treeView-withChild span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.treeView-Level2, .treeView-Level3, .treeView-Level4, .treeView-LevelN {
+    margin-left: 30px;
+}
+
