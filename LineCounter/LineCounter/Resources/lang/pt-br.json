@@ -21,7 +21,7 @@
         "BtnSelectOutput_tooltip": "Clique aqui para selecionar a pasta de saída.",
         "BtnAbout": "&Sobre",
 
-        "BtnProcess": "&Processo",
+        "BtnProcess": "&Processar",
         "LblResults": "Resultados",
         "BtnClear": "Limpa&r",
         "BtnClear_tooltip": "Limpar a lista de repositórios",
@@ -31,7 +31,7 @@
         "Help": "A&juda",
         "Language": "&Língua",
         "Value": "Value",
-        "LstFilesExtensions_tooltip": "Extensões de arquivo que serão usadas para contar linhas. Separe-os por vírgulas ou ponto e vírgula.",
+        "LstFilesExtensions_tooltip": "Extensões de arquivo que serão usadas para contar linhas. Separe-os por vírgulas ou ponto e vírgula. Exemplo *.txt, *.htm",
 
         "LstExceptions_tooltip": "A lista de exceções separada por vírgulas e ponto e vírgula. Qualquer nome de arquivo ou caminho que contenha uma palavra aqui será ignorado.",
         "TxtOutput_tooltip": "O caminho onde os arquivos de relatório serão salvos.",

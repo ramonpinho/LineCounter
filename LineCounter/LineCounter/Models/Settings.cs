@@ -56,7 +56,13 @@
                         ext = DEFAULT_EXT;
                     else
                         ext = Extensions;
-                    _extensions = ext.ToLower().Split(_separators);
+                    _extensions = ext.ToLower().Split(_separators,StringSplitOptions.RemoveEmptyEntries);
+                    // Extensions must start with *. to work with Directory.GetFiles so, it will be forced
+                    for(int i = 0; i < _extensions.Length; i++) {
+                        _extensions[i] = _extensions[i].Trim();
+                        if (!_extensions[i].StartsWith("*."))
+                            _extensions[i] = $"*.{_extensions[i]}";
+                    }
                 }
 
                 return _extensions;
